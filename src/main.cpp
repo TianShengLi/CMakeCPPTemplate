@@ -1,7 +1,7 @@
-#include <iostream.h>
+#include <iostream>
 
-main()
+int main()
 {
-    cout << "Hello World!";
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }

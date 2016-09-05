@@ -40,8 +40,10 @@ ${PROJECT_SOURCE_DIR}/src/*.cpp
 )
 
 # set build target
-# executable
-ADD_EXECUTABLE( CMakeCPPTemplate WIN32 "${SRC_FILES}" )
+# executable ( Windows program )
+# ADD_EXECUTABLE( CMakeCPPTemplate WIN32 "${SRC_FILES}" )
+# executable ( console )
+ADD_EXECUTABLE( CMakeCPPTemplate "${SRC_FILES}" )
 # library static
 # ADD_LIBRARY ( CMakeCPPTemplate STATIC)
 # library shared
